@@ -36,7 +36,6 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
-        
         .background(Color(red: 0.2, green: 0.4, blue: 1, opacity: 0.4))
         .onTapGesture {
             focusedField = nil
